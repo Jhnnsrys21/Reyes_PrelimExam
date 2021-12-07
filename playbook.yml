@@ -1,0 +1,8 @@
+---
+- name: Prelim Exam Submission
+  hosts: ubuntu
+  roles:
+    - python
+    - java
+    - changemotd
+    - createuser

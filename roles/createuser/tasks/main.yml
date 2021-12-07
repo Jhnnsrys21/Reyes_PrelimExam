@@ -1,0 +1,12 @@
+---
+# tasks file for createuser
+- name: Include config.yml variable
+  include_vars:
+    file: ../files/config.yml
+
+- name: Create a user
+  user:
+    name: qjsreyes
+    comment: Jhoanna Reyes
+    shell: /bin/bash
+
